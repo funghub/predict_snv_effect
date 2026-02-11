@@ -1,5 +1,5 @@
 # predict_snv_effect
-Train a logistic regression, a supervised machine learning model, to predict pathogenicity of single nucleotide variants (non-coding) by epigenetic factors
+Train a logistic regression, a supervised machine learning model, to predict pathogenicity of single nucleotide variants (non-coding) by epigenetic factors.
 This project utilizes a computational framework to predict the regulatory effects of specific variants in melanoma by a machine learning algorithm.
 
 In the data set, the machine learning model needed to predict one of the two labels:
