@@ -1,13 +1,13 @@
 # predict_snv_effect
 This project utilizes a logistic regression, a supervised machine learning model, to predict the pathogenicity of specific non-coding single nucleotide variants in melanoma given epigenetic features.
 
-## Tools Used
-Pandas was used to organize, clean, and merge the data. Scikit-learn was used to train and evaluate the model, along with one-hot encoding for nucleotides because logistic regression only takes numerical features.
-Pyplot from matplotlib and seaborn was used to generate a heatmap of the confusion matrix and plot the ROC-AUC curve.
-
 In the data set, the machine learning model needed to predict one of the two labels:
 - Pathogenic, Likely-Pathogenic, Uncertain-Significance (VUS) = 1
 - Benign and Likely-Benign = 0
+
+## Tools Used
+Pandas was used to organize, clean, and merge the data. Scikit-learn was used to train and evaluate the model, along with one-hot encoding for nucleotides because logistic regression only takes numerical features.
+Pyplot from matplotlib and seaborn was used to generate a heatmap of the confusion matrix and plot the ROC-AUC curve.
 
 ## Data Source
 Multimodal dataset is from NCBI variant viewer and Enricher to source histone midifications, transcription factors, and the local DNA sequence.
