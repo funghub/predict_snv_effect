@@ -195,7 +195,7 @@ def initial_training():
 
     labels = ["Benign", "Pathogenic/Uncertain"]
     fig, ax = plt.subplots()
-    num_ticks = np.arange(len(labels))
+    num_ticks = np.arange(len(labels)) # create a numpy array of [0,1]
     plt.xticks(num_ticks, labels)
     plt.yticks(num_ticks, labels)
 
