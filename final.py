@@ -10,6 +10,16 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.metrics import accuracy_score, classification_report, auc
 from sklearn import metrics
 
+'''
+Current Working Directory:
+To run this code, make sure you are running finaly.py in the same directory as data.csv.
+Your current directory for your terminal should be that same directory mentioned.
+
+Virtual Environment:
+Before running this code, also make sure that you have all the requirements 
+loaded in your conda environment from environment.yml.
+'''
+
 def initial_training():
 
     print('\n---------- Initial Model Training and Evaluation ----------')
